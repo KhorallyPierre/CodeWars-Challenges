@@ -1,8 +1,20 @@
-// Add the isUpperCase method to String to see whether the string is ALL CAPS. For example:
+// Build a function that can get all the integers between two given numbers.
+//
+// Example:
+//
+// (2,9)
+//
+// Should give you this output back:
+//
+// [ 3, 4, 5, 6, 7, 8 ]
+//
+// If startNum is the same as endNum, return an empty array.
 
-
-
-
-String.prototype.isUpperCase = function() {
-  return this.toString() === this.toUpperCase()
-}
+function range(startNum, endNum){
+let arr = []
+for(let i = startNum; i < endNum; i++){
+   arr.push(i)
+   }
+  arr.shift()
+  return arr
+};

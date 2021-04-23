@@ -1,12 +1,7 @@
-// You will be given an array of objects (associative arrays in PHP) representing data about developers who have signed up to attend the next coding meetup that you are organising. The list is ordered according to who signed up first.
-//
-// Your task is to return one of the following strings:
-// 
-// < firstName here >, < country here > of the first Python developer who has signed up; or
-// There will be no Python developers if no Python developer has signed up.
+// Implement a function which multiplies two numbers.
 
-
-function getFirstPython(list) {
-   let a=list.find(v=>v.language==='Python')
-  return a?`${a.firstName}, ${a.country}`:'There will be no Python developers'
+function multiply(a, b){
+  return a * b
+  
 }
+  

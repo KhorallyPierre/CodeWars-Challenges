@@ -1,12 +1,10 @@
-// Calculate how many times a number can be divided by a given number.
-//
-// Example
-// For example the number 6 can be divided by 2 two times:
-const divisions = (n, d) => {
-  let numDiv = 0
-  while (n >= d) {
-    numDiv +=1;
-    n = Math.floor(n / d)
+// Write a function that accepts two arguments and returns the remainder after dividing the larger number
+//  by the smaller number. Division by zero should return NaN (in C#, throw a new DivideByZeroException
+//    instead). Arguments will both be integers.
+function remainder(a, b){
+  if (a > b){
+    return a % b 
+  } else if (b > a){
+    return b % a
   }
-  return numDiv
-};
+}

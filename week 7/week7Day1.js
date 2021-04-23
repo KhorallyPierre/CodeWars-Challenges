@@ -1,14 +1,13 @@
 
-The code provided is supposed replace all the dots . in the specified String str with dashes -
+// It's pretty straightforward. Your goal is to create a function that removes the first and last characters of a string. 
+// You're given one parameter, the original string. 
+// You don't have to worry with strings with less than two characters.
 
-But it's not working properly.
-
-Task
-Fix the bug so we can all go home early.
-
-Notes
-String str will never be null.
-
-var replaceDots = function(str) {
-  return str.replace(/\./g, '-');
+function removeChar(str){
+  return str
+    .split('')
+    .slice(1, str.length - 1)
+    .join('')
 }
+
+

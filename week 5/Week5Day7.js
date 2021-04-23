@@ -4,7 +4,11 @@
 
 
 function divisibleBy(numbers, divisor){
-return numbers.filter(element => element % divisor == 0)
-}
-
-// completed 
+    var newArr = [];
+    for (let i = 0; i < numbers.length; i++) {
+      if (numbers[i] % divisor === 0) {
+        newArr.push(numbers[i]);
+      } 
+    }
+  return newArr;
+  }

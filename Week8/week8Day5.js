@@ -1,18 +1,16 @@
+// Write a function that accepts two arguments and returns the remainder after dividing the 
+// larger number by the smaller number. Division by zero should return NaN (in C#, throw a new 
+//   DivideByZeroException instead). Arguments will both be integers.
 
-// Given 2 strings, a and b, return a string of the form short+long+short, with the shorter string on the outside and the longer string on the inside. The strings will not be the same length, but they may be empty ( length 0 ).
-//
-// For example:
-//
-// solution("1", "22") // returns "1221"
-// solution("22", "1") // returns "1221"
 
-function solution(a, b){
 
-  if (a.length > b.length) {
-    return `${b}${a}${b}`
-  } else {
-  return `${a}${b}${a}`
+function remainder(a, b){
+  console.log(a,b)
+  if (a > b){
+    return a % b 
+  } else if (b > a){
+    return b % a
+  } else if ( a < 0 && b < 0){
+    return 0
   }
 }
-
-updates

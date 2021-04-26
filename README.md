@@ -5,4 +5,4 @@
 
 ## Lately I've been trying to find drier solutions and shorteneing my code.
 
-[!screenshot](background2.jpg)
+![screenshot](background2.jpg)

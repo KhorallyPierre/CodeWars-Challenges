@@ -11,7 +11,7 @@
 // create a function with string as a parameter, declare new string as empty string, for loop over first parameter, update string to be equal to string1 + string2 + string3
 // return new string
 // cal functuin
-
+// the parameters will be the strings used to test
 function newStringsHere(string1, string2, string3){
   let newString = ''
   for (let i = 0; i < string1.length; i++){

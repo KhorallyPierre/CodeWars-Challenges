@@ -11,9 +11,11 @@ var mergeTwoLists = function(l1, l2) {
     if (l1[i] < l2[j]) {
       newArray.push(l1[i])
       i++
+      newArray.push(l2[j])
     } else if (l2[j] < l1[i]) {
       newArray.push(l2[j])
       j++
+      newArray.push(l1[i])
     } else {
       newArray.push(l1[i])
       newArray.push(l2[j])

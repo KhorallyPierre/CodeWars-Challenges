@@ -11,3 +11,4 @@ function takeArr(arr) {
   return newArray
 }
 console.log(takeArr([1,2,3,4,5,6,7,8,9,20,22,19]))
+//

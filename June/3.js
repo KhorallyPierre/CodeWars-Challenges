@@ -18,4 +18,6 @@ function createArr() {
     console.log(musketeer)
   }
 }
+
+
 console.log(createArr())

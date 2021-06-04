@@ -5,14 +5,14 @@
 
 function takeArr(arr) {
   for (let i = 0; i < arr.length; i++) {
-    if (arr[0] < arr.slice(-1)[0]) {
+    if (arr[0] < arr[arr.length - 1]) {
       console.log('HI!')
-    } else if (arr[0] > arr.slice(-1)[0] ) {
+    } else if (arr[0] > arr[arr.length - 1]) {
       console.log('Bye!')
-    } else if (arr[0] === arr.slice(-1)[0] ) {
+    } else if (arr[0] === arr[arr.length - 1]) {
       console.log('We close in an hour')
     }
   }
 
 }
-takeArr([30, 10])
+takeArr([10, 10])

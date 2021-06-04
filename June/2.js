@@ -19,3 +19,4 @@ function createArr() {
   }
 }
 console.log(createArr())
+//
